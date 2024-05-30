@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('css/background1.jpg'); /* Background image */
+    /* background-color: #2C2046; Dark purple background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7E62A3; /* Purple button background */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5D4370; /* Darker purple on hover */
+}
+
+footer {
+    background-color: #1C152E; /* Dark purple footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+

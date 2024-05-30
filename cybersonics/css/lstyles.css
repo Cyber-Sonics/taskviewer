@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2C2046; /* Dark purple background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.container {
+    max-width: 360px;
+    padding: 20px;
+    text-align: center;
+    background-color: #3F2A5C; /* Darker purple container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: calc(100% - 40px); /* Subtract padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #7E62A3; /* Purple button background */
+    color: #ffffff; /* White text */
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5D4370; /* Darker purple on hover */
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffffff; /* White text for footer links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

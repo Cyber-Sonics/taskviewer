@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background2.jpg'); /* Replace 'background1.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(240, 100%, 100%); 
+    color: #000000; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+    min-height: 100vh; /* Ensure full height */
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White container background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(70, 57, 57, 0.1); /* Shadow effect */
+}
+
+.header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White header text */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0; /* Rounded corners on top */
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.tasks button {
+    background-color: #28a745; /* Green button background */
+    color: #fff; /* White button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.tasks button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.footer {
+    background-color: #007bff; /* Blue footer background */
+    color: #fff; /* White footer text */
+    padding: 20px;
+    border-radius: 0 0 10px 10px; /* Rounded corners on bottom */
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Align items vertically */
+}
+
+.clock-actions button {
+    background-color: #ffc107; /* Yellow button background */
+    color: #212529; /* Dark button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.clock-actions button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.btn-dark {
+    background-color: #343a40; /* Dark button background */
+    color: #fff; /* White button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-dark:hover {
+    background-color: #23272b; /* Darker gray on hover */
+}
